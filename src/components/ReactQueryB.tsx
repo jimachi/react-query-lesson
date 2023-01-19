@@ -13,7 +13,7 @@ export const ReactQueryB: FC = () => {
 
   return (
     <>
-      <p className="font-bold my-3">ReactQueryA</p>
+      <p className="font-bold my-3">ReactQueryB</p>
       {data?.map((task) => (
         <p key={task.id}>{task.title}</p>
       ))}
