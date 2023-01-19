@@ -13,7 +13,7 @@ export const useClassicalFetch = () => {
       setLoading(true)
 
       try {
-        const res = await axios('http://127.0.0.1:8000/api/tasks')
+        const res = await axios('http://127.0.0.1:8000/api/tasks/')
         setTasks(res.data)
       } catch (error) {
         setError(true)
